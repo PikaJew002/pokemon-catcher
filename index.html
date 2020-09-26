@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pokemon Catcher</title>
+        <link rel="stylesheet" href="pokeballstyle.css">
+        <script src="pokeballscript.js"></script>
+    </head>
+
+    <body>
+        <img id="pokemonLogoImage" src="https://i.imgur.com/QZwZFGT.png"/>
+        <h1>Pokemon Catcher</h1>
+        <p>A pokemon appears and you need to try to catch it! <br> Choose a Pokeball to throw. The better the ball, the better your chances of catching it!</p>
+        <div class="ballImageDiv">
+            <img class="ballImage" id="pokeballImage" onclick="ballThrow('pokeball')" src="https://i.imgur.com/Im571HT.png"/>
+            <img class="ballImage" id="greatballImage" onclick="ballThrow('greatball')" src="https://i.imgur.com/XlfIjbN.png"/>
+            <img class="ballImage" id="ultraballImage" onclick="ballThrow('ultraball')" src="https://i.imgur.com/KBA2W2K.png"/>
+            <img class="ballImage" id= "masterballImage" onclick="ballThrow('masterball')" src="https://i.imgur.com/mVEehjB.png"/>
+        </div>
+
+        <div id="resultDiv"></div>
+    </body>
+</html>
